@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  /* font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+#c4a47c
+#fff
+#000000
+#604829
+#666
+#ACACAC
+*/
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.topo {
+  display: flex;
+  background-color: #604829;
+  justify-content: space-around;
+}
+
+.topo img {
+  width: 100px;
+  height: 100px;
+}
+
+.topo ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.topo li {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  text-decoration: none;
+
+}
+
+.topo a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #c4a47c;
+  text-shadow: 1px 4px 2px black;
+}
+
+.secao-banner {
+  background-image: url(/assets/parallax-imagem1.png);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.secao-banner h1 {
+  font-size: 100px;
+  color: white;
+  top: 45%;
+  position: absolute;
+
+}
+
+.informacoes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.container-textos {
+  max-width: 1024px;
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.container-textos h2 {
+  color: #604829;
+  margin: 30px;
+}
+
+.container-textos p {
+  font-size: 16px;
+  font-family: 'Lato';
+  line-height: 30px;
+}
+
+.container-img {
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.containerimg-img1 {
+  background-image: url(/assets/parallax-imagem2.jpg);
+  font-family: 'Fraunces';
+  font-size: 24px;
+  font-style: italic;
+
+}
+
+.container-img h3 {
+  background-color: #604829;
+  color: white;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+}
+
+.containerimg-img2 {
+  background-image: url(/assets/parallax-imagem3.jpg);
+  font-family: 'Fraunces';
+  font-size: 24px;
+  font-style: italic;
+}
+
+.secao-contatos {
+  background-image: url(/assets/parallax-imagem4.png);
+  height: 100vh;
+  position: relative;
+}
+
+.secao-contatos h2 {
+  font-size: 24px;
+  background-color: #604829;
+  color: white;
+  width: 500px;
+  padding: 10px;
+  top: 10%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.secao-contatos iframe {
+  top: 23%;
+  margin-bottom: 30px;
+
+}
+
+.box-contatos {
+  margin-bottom: 60px;
+  width: 500px;
+  bottom: 8%;
+  background-color: #604829;
+  text-align: center;
+  color: white;
+  padding: 10px;
+
+}
+
+.box-contatos ul {
+  list-style-type: none;
+}
+
+.box-contatos li {
+  padding: 5px;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 85vh;
+  background-image: url(/assets/cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.horarios h2 {
+  color: white;
+  position: absolute;
+  top: 20%;
+}
+
+.lista-secao {
+  width: 768px;
+  bottom: 20%;
+  position: absolute;
+  text-align: center;
+
+}
+
+.lista-secao ul {
+  list-style-type: none;
+}
+
+.lista-secao li {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.linha {
+  left: 50%;
+  top: 50%;
+  /* Centralizando horizontalmente */
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 70%;
+  border-bottom: 1px solid white;
+}
+
+footer {
+  font-family: 'Lato';
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+footer img {
+  width: 60px;
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  height: 60px;
+}
